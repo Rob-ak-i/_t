@@ -248,10 +248,10 @@ var
 			Multiplayer := not (R=System.Windows.Forms.DialogResult.Cancel);
 			Control := not (R=System.Windows.Forms.DialogResult.Yes);
 			SetWindowTitle(Multiplayer.ToString);
-			W.DownloadFile('https://yandex.ru/images/today?size=512x1024',NetSprite);
+			//W.DownloadFile('https://yandex.ru/images/today?size=512x1024',NetSprite);
 			SetWindowWidth(1024);
 			SetWindowHeight(512);
-			GraphABC.FillWindow(NetSprite);
+			//GraphABC.FillWindow(NetSprite);
 			GraphABC.LockDrawing;
 			if Control then begin
 				for var i:=0 to 2 do begin
